@@ -63,7 +63,7 @@ class _QRCodeGeneratorPageState extends State<QRCodeGeneratorPage> {
                         version: QrVersions.auto,
                         size: 200.0,
                       )
-                    : Text('QR kod yaratish uchun tugmani bosing'),
+                    : Text('QR kod yaratish uchun tugmani bosing '),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: _generateQRCode, // QR kod yaratish uchun tugma
